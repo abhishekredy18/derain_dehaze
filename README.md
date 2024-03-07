@@ -8,4 +8,6 @@
 To run the inference.py:
   1. Stay in the Drdo_poc and run the following command line
      Format - python inference.py --dir_path DIR_OF_TEST_IMAGES --checkpoint CHECKPOINT_PATH --save_dir RESULTS_WILL_BE_SAVED_HERE 
-     Example - abhishek@gvlab:~/abk/iddaw/Drdo_poc$ python derain_dehaze/inference.py --dir_path derain_dehaze/input/ --checkpoint derain_dehaze/ckp/Raindrop.pth --save_dir derain_dehaze/outpu/ 
+     Example - abhishek@gvlab:~/abk/iddaw/Drdo_poc$ python derain_dehaze/inference.py --dir_path derain_dehaze/input/ --checkpoint derain_dehaze/ckp/Raindrop.pth --save_dir derain_dehaze/output/
+
+     
