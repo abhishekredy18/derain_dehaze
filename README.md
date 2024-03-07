@@ -38,6 +38,10 @@ git clone https://github.com/facebookresearch/detectron2.git
 ```shell
 (detectron) abhishek@gvlab:~/abk/iddaw/Drdo_poc$ python app.py --dir_path derain_dehaze/rainfog/input/ --checkpoint derain_dehaze/ckp/Rainfog.pth --save_dir derain_dehaze/rainfog/output/  
 ```
+Local Server 
+![App Image 1](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/app/app%20window.jpeg)
+
+
 ## Inference
 1. Include the Drdo_poc directory to the PYTHONPATH environment variable.
    (Update the path accordingly)
@@ -52,6 +56,8 @@ Example usage
 ```shell
 abhishek@gvlab:~/abk/iddaw/Drdo_poc$ python derain_dehaze/inference.py --dir_path derain_dehaze/input/ --checkpoint derain_dehaze/ckp/Raindrop.pth --save_dir derain_dehaze/output/
 ```
+![Terminal Image 1](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/rainfog/inferance%20terminal%20output.jpeg)
+
 ## Training
 ```shell
 python train.py --teacher TEACHER_CHECKPOINT_PATH_0 TEACHER_CHECKPOINT_PATH_1 TEACHER_CHECKPOINT_PATH_2 --save-dir RESULTS_WILL_BE_SAVED_HERE
