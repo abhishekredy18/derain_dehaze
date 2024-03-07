@@ -58,3 +58,19 @@ python train.py --teacher TEACHER_CHECKPOINT_PATH_0 TEACHER_CHECKPOINT_PATH_1 TE
 ```
 > For more info related to training, refer:
 > [Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal](https://github.com/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal)
+
+## Inference Results
+
+### using Raindrop.pth ckpt on Rain Images
+![Raindrop Image 1](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/raindrop/0000037_rgb.png)
+![Raindrop Image 2](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/raindrop/15_rain_mr_OCTOBER_1_rgb_leftImg8bit.png)
+![Raindrop Image 3](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/raindrop/0000025_rgb.png)
+![Raindrop Image 4](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/raindrop/0000021_rgb.png)
+![Raindrop Image 5](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/raindrop/0000087_rgb.png)
+
+### using Rainfog.pth ckpt on Fog Images
+![Fog Image 1](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/rainfog/0000090_rgb.png)
+![Fog Image 2](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/rainfog/0000094_rgb.png)
+![Fog Image 3](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/rainfog/0000102_rgb.png)
+![Fog Image 4](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/rainfog/0000171_rgb.png)
+![Fog Image 5](https://github.com/abhishekredy18/derain_dehaze/blob/main/images/rainfog/0000173_rgb.png)
