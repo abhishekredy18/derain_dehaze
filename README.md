@@ -38,7 +38,7 @@ pip install -r requirements.txt
 - Download the files from the following link and place them in the project root directory:
 [Download weight files](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/mohammed_ibrahim_ihub-data_iiit_ac_in/Epfsj3OjKLFJrHdFzThAda8BnKexz0vLQGz1hkth9oeWoQ?e=n25z8x)
 
-### Run the Application
+## Run the Application
 - After successful execution of all the above steps, the app is ready to use. 
 - There are currently two modes of the application:
     - Deraining Mode (to initialize the application in this mode use the syntax):
