@@ -16,7 +16,8 @@ python -m venv name_of_your_env
 ```bash
 # For PowerShell
 scripts/activate.ps1
-
+```
+```bash
 # For Command Prompt
 scripts/activate.bat
 ```
